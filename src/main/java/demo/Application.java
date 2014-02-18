@@ -19,8 +19,8 @@ import org.springframework.util.ResourceUtils;
 @EnableAutoConfiguration
 public class Application {
 	
-	@Value("${keystore.file}") String keystoreFile;
-	@Value("${keystore.pass}") String keystorePass;
+	@Value("${keystore.file}") private String keystoreFile;
+	@Value("${keystore.pass}") private String keystorePass;
 	
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
