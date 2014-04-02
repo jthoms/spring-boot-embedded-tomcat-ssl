@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.0.0.BUILD-SNAPSHOT</version>
+		<version>1.0.0.RELEASE</version>
 	</parent>
 
 	<dependencies>
@@ -39,7 +39,7 @@
 
 	<properties>
 		<start-class>demo.Application</start-class>
-		<tomcat.version>8.0.1</tomcat.version>
+		<tomcat.version>8.0.5</tomcat.version>
 	</properties>
 
 	<build>
